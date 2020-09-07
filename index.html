@@ -12,18 +12,6 @@
     
 <title>Future Technologies</title>
 
-<style>
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-    
-    li {
-      display: inline;
-    }
-</style>
-
 </head>
 <body>
 
@@ -31,16 +19,26 @@
 
 
 
+
 <div class="topFixedbanner p-0">
 
   <div class="topFixedOverly">
 
+     <!-----Header Area Starts----->
+
+     <header>
+        
+      <span style="margin-left: 20px;"><img class="logo" src="images/FBD.jpg"></span>
     <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">News</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">About</a></li>
+        <li><a href="#"><b>Home</b></a></li>
+        <li><a href="#"><b>About Us</b></a></li>
+        <li><a href="#"><b>Services</b><i class="fas fa-chevron-down"></i></a></li>
+        <li><a href="#"><b>Portfolio</b></a></li>
+        <li><a href="#"><b>Contact Us</b></a></li>
     </ul>
+</header>
+
+<!-----Header Area Ends----->
         
             
     </div>
@@ -70,6 +68,19 @@
 
 <!--Footer Ends-->
 
+
+<!----JavaScript Area Starts----->
+
+
+<script type="text/javascript">
+  window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+  })
+  </script>
+
+
+<!----JavaScript Area Ends----->
 
 </body>
 
