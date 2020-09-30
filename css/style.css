@@ -30,7 +30,7 @@ header
 header.sticky
 {
     padding: 15px 100px ;
-    background: #E1DAD3;
+    background: #49667B;
 }
 
 
@@ -101,13 +101,45 @@ header.sticky ul li a
     position: absolute;
     width: 100%;
 	height: 600px;
-    background-color: rgba(225, 218, 211, 0.5);
+    background-color: rgba(225, 218, 211, 0.3);
 }
 
 
 
 /* Top Banner Ends */
 
+/* Breadcrumb Starts */
+
+
+.bread{
+    background:#dbd1c6;
+    color: #49667B;
+    padding-top:60px;
+    min-height:150px;
+}
+    
+
+.bread #branding{
+    float:left;
+
+}
+.bread #branding h1{
+    margin: 0;
+}
+
+
+/* Breadcrumb Ends */
+
+/* Services Section Starts */
+
+.carded{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* Services Section Ends */
 
 
 /* Footer Starts */
@@ -126,7 +158,7 @@ header.sticky ul li a
 .footerx{
     width: 100%;
     min-height: 300px;
-    background-color: #E1DAD3;
+    background-color: #49667B;
     
 }
 
