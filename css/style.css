@@ -136,7 +136,7 @@ header.sticky ul li a
     margin-top: 70px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 /* Services Section Ends */
@@ -144,22 +144,11 @@ header.sticky ul li a
 
 /* Footer Starts */
 
-
-
 .footer{
-    margin-top: 50px;
-    background-image: ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 300px;
-
-}
-
-.footerx{
-    width: 100%;
-    min-height: 300px;
-    background-color: #49667B;
-    
+    background:#49667B;
+    margin-top: 100px;
+    padding-top:60px;
+    min-height:250px;
 }
 
 
