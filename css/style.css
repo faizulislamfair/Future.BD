@@ -142,6 +142,19 @@ header.sticky ul li a
 /* Services Section Ends */
 
 
+/* About Us Section Starts */
+
+.about{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+/* About Us Section Ends */
+
+
 /* Footer Starts */
 
 .footer{
