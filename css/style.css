@@ -149,8 +149,48 @@ header.sticky ul li a
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
+
 }
+
+
+.middle{
+    position: absolute;
+    margin-top: 100px;
+    width: 100%;
+    
+}
+
+
+.counting-sec{
+    padding: 80px 0;
+    width: 100%;
+    background: linear-gradient(90deg, #3c6382, #82ccdd);
+}
+
+.inner-width{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+.col{
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.col i{
+    font-size: 40px;
+    color: #333;
+}
+
+.num{
+    font-size: 40px;
+    margin: 20px 0;
+}
+
 
 /* About Us Section Ends */
 
@@ -159,7 +199,7 @@ header.sticky ul li a
 
 .footer{
     background:#49667B;
-    margin-top: 100px;
+    margin-top: 700px;
     padding-top:60px;
     min-height:250px;
 }
